@@ -1,19 +1,24 @@
 export const Avatar = (props) => {
   return (
-    <div id='team' className='text-center'>
-      <div className='container'>
-        <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2>creators</h2>
+    <div className='main-container'>
+    <div className="avatar-container">
+      <div className="row">
+        <div className='col-md-8 col-md-offset-2'>
+          <h2></h2>
         </div>
-        <div id='row'>
+      </div>
+        <div className='row avatar-row'>
+        <div className='col-md-8 col-md-offset-2'>
+
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
+                <div key={`${d.name}-${i}`} className='col-md-2 col-sm-6'>
                   <div className='thumbnail'>
                     {' '}
                     <img src={d.img} alt='...' className='team-img' />
                     <div className='caption'>
                       <h4>{d.name}</h4>
+                      <p>{d.faction}</p>
                       <p>{d.job}</p>
                     </div>
                   </div>
@@ -23,5 +28,7 @@ export const Avatar = (props) => {
         </div>
       </div>
     </div>
+    </div>
+
   )
 }

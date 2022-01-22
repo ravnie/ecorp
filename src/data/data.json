@@ -1,6 +1,7 @@
 {
   "Header": {
-    "title": "E-corp"
+    "title": "E-corp",
+    "paragraph": "The dystopian future where giant corporations rule the world."
   },
 
   "Services": [
@@ -86,6 +87,80 @@
     {
       "img": "img/team/4.png",
       "name": "Bollakvinne 4",
+      "job": "Project Manager"
+    }
+  ],
+  "Avatar": [
+    {
+      "img": "img/team/1.png",
+      "faction": "Tasmania Industries",
+      "name": "nft#3561",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/2.png",
+      "faction": "FutureCorp", 
+      "name": "nft#91",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/3.png",
+      "faction": "Resistance",
+      "name": "nft#9201",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/4.png",
+      "faction": "Tasmania Industries",
+      "name": "nft#3333",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/1.png",
+      "faction": "Tasmania Industries",
+      "name": "nft#3561",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/2.png",
+      "faction": "FutureCorp", 
+      "name": "nft#91",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/3.png",
+      "faction": "Resistance",
+      "name": "nft#9201",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/4.png",
+      "faction": "Resistance",
+      "name": "nft#3333",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/1.png",
+      "faction": "Tasmania Industries",
+      "name": "nft#3561",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/2.png",
+      "faction": "FutureCorp", 
+      "name": "nft#91",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/3.png",
+      "faction": "Resistance",
+      "name": "nft#9201",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/4.png",
+      "faction": "Resistance",
+      "name": "nft#3333",
       "job": "Project Manager"
     }
   ]

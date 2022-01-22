@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Roadmap } from "./components/roadmap";
-import { Team } from "./components/team";
+import { Avatar } from "./components/avatar";
+import { LoreSection } from "./components/loreSection";
+import { Overview } from "./components/overview";
+
+//import {}
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -22,8 +26,12 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Overview data={landingPageData.Overview} />
+      <Avatar data={landingPageData.Avatar} />
+      <LoreSection data={landingPageData.Overview} />
       <Roadmap data={landingPageData.Header} />
-      <Team data={landingPageData.Team} />
+
+
     </div>
   );
 };
